@@ -7,6 +7,7 @@ import { DialogAddUserComponent } from '../dialog-add-user/dialog-add-user.compo
 import {FormsModule} from '@angular/forms';
 
 
+
 @Component({
   selector: 'app-user',
   standalone: true,
@@ -15,8 +16,11 @@ import {FormsModule} from '@angular/forms';
   styleUrl: './user.component.scss'
 })
 export class UserComponent {
+ 
 
-  constructor(public dialog: MatDialog){}
+  constructor(public dialog: MatDialog){
+    
+  }
 
   openDialog() {
     this.dialog.open(DialogAddUserComponent)
