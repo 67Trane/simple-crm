@@ -1,7 +1,11 @@
+mat-card {
+    background-color: white;
+}
+
 .user-detail-header {
     min-height: 250px;
     background-color: red;
-    color: white;
+    color: white !important;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -27,3 +31,11 @@
         margin-bottom: 0;
     }
 }
+
+.pin-right-upper-corner {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: black;
+}
+
